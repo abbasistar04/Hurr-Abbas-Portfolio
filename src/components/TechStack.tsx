@@ -156,7 +156,7 @@ const TechStack = () => {
       (texture) =>
         new THREE.MeshPhysicalMaterial({
           map: texture,
-          emissive: "#ffffff",
+          emissive: "#ff4d4d",
           emissiveMap: texture,
           emissiveIntensity: 0.3,
           metalness: 0.5,
@@ -204,7 +204,7 @@ const TechStack = () => {
           environmentRotation={[0, 4, 2]}
         />
         <EffectComposer enableNormalPass={false}>
-          <N8AO color="#0f002c" aoRadius={2} intensity={1.15} />
+          <N8AO color="#2c0000" aoRadius={2} intensity={1.15} />
         </EffectComposer>
       </Canvas>
     </div>

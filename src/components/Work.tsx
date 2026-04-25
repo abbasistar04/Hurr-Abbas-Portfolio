@@ -1,10 +1,10 @@
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 
-gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger);
 
 const Work = () => {
   useGSAP(() => {
@@ -53,23 +53,60 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
-            <div className="work-box" key={index}>
-              <div className="work-info">
-                <div className="work-title">
-                  <h3>0{index + 1}</h3>
-
-                  <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
-                  </div>
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>01</h3>
+                <div>
+                  <a href="https://crent.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <h4>Crent</h4>
+                  </a>
+                  <p>Car Rental Platform</p>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <h4>Tools and features</h4>
+              <p>React, Tailwind CSS, TypeScript, JavaScript</p>
             </div>
-          ))}
+            <div className="work-curiosity">
+              <p>Click to explore the experience</p>
+            </div>
+          </div>
+
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>02</h3>
+                <div>
+                  <a href="https://travel-management-system-iota.vercel.app/login" target="_blank" rel="noopener noreferrer">
+                    <h4>Travel Management</h4>
+                  </a>
+                  <p>Management System</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>React, Tailwind CSS, TypeScript, JavaScript, SVGs</p>
+            </div>
+            <div className="work-curiosity">
+              <p>Discover the journey</p>
+            </div>
+          </div>
+
+          <div className="work-box">
+            <div className="work-info">
+              <div className="work-title">
+                <h3>03</h3>
+                <div>
+                  <h4>Future Project</h4>
+                  <p>Full Stack / 3D</p>
+                </div>
+              </div>
+              <h4>Tools and features</h4>
+              <p>Next.js, Three.js, Node.js, SQL</p>
+            </div>
+            <div className="work-coming-soon">
+              <p>Coming Soon</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

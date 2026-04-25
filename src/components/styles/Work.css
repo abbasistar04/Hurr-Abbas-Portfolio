@@ -36,7 +36,9 @@
   border-right: 1px solid #363636;
   flex-shrink: 0;
   gap: 50px;
-  justify-content: start;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .work-flex .work-box:nth-child(even) {
   flex-direction: column-reverse;
@@ -62,7 +64,18 @@
   margin-bottom: 20px;
 }
 .work-title > div {
-  text-align: right;
+  text-align: center;
+}
+.work-curiosity {
+  margin-top: 20px;
+  opacity: 0.6;
+  font-style: italic;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.work-box:hover .work-curiosity {
+  opacity: 1;
+  color: var(--accentColor);
 }
 .work-title h3 {
   font-size: 50px;

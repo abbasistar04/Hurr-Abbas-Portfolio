@@ -90,21 +90,23 @@ const WhatIDo = () => {
               <h3>DEVELOP</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                Building robust, scalable, and high-performance web applications
+                using modern frameworks. From static frontends to complex full-stack
+                systems, I focus on clean code and user-centric design.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
                 <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
+                <div className="what-tags">Tailwind CSS</div>
+                <div className="what-tags">HTML/CSS</div>
                 <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
                 <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">SQL</div>
+                <div className="what-tags">MongoDB</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -131,19 +133,20 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                Creating visually stunning and interactive user experiences. I
+                utilize modern design tools and 3D libraries to bring digital
+                concepts to life with precision and creativity.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
+                <div className="what-tags">Figma</div>
+                <div className="what-tags">Spline</div>
+                <div className="what-tags">Three.js</div>
+                <div className="what-tags">GSAP</div>
                 <div className="what-tags">UI Design</div>
+                <div className="what-tags">SVG</div>
                 <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">3D Modeling</div>
               </div>
               <div className="what-arrow"></div>
             </div>

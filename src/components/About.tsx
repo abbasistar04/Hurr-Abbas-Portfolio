@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          I'm Hurr Abbas, an aspiring software engineer with a passion for
+          building clean, efficient, and user-centric web applications.
+          Currently, I'm deep-diving into computer science through Harvard's
+          CS50x (started April 2026), constantly expanding my technical horizons
+          from static frontends to complex full-stack systems.
         </p>
       </div>
     </div>
